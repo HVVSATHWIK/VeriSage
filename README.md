@@ -1,6 +1,6 @@
 # 🚀 VeriSage - Real-Time News Verification Powerhouse
 
-![VeriSage Banner] ![VeriSage Banner](img/VeriSage.jpeg)  
+![VeriSage Banner](img/VeriSage.png)  
 *Unleash AI to Combat Misinformation and Empower Journalism!*
 
 **[Live Demo](https://veri-sage.vercel.app/)** | [GitHub](https://github.com/your-username/verisage) | [Deployed on Vercel](#deployment)
