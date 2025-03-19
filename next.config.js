@@ -5,6 +5,18 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
   images: { unoptimized: true },
+  experimental: {
+    serverActions: false,
+    serverComponents: false,
+    esmExternals: false
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      'undici': false
+    };
+    return config;
+  }
 };
 
 module.exports = nextConfig;
